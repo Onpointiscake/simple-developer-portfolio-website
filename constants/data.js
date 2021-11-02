@@ -82,7 +82,7 @@ const userData = {
     }
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1Wq4wtwvW6i7q37Obug_6gaiIjaYUTjw6/view?usp=sharing",
+    "https://drive.google.com/file/d/1QxBDMLBUcvzEhN57FBXz5TKHleZ4MiDe/view?usp=sharing",
   socialLinks: {
     twitter: "https://open-bootcamp.com",
     linkedin: "https://www.linkedin.com/in/javsf/",
