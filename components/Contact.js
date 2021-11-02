@@ -17,7 +17,8 @@ export default function Contact() {
                 Pongámonos en contacto y hablemos
               </h1>
               <p className="font-light text-base text-gray-200 mt-2">
-                Rellena los campos y te responderé en cuanto pueda.
+               Preferiblemente contactar por email antes de realizar llamada, gracias!
+                
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
@@ -72,7 +73,9 @@ export default function Contact() {
             </div>
       
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          {/**
+           * 
+           * <form className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Tu nombre
@@ -109,6 +112,8 @@ export default function Contact() {
               Enviar Mensaje
             </button>
           </form>
+           */}
+          
         </div>
       </div>
     </section>
