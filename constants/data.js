@@ -19,7 +19,7 @@ const userData = {
     },
     {
       title: "OpenJobs - CRUD Simple ",
-      link: "https://6180ebf1a790dd90f18b4c6e--bestjobsdemo.netlify.app",
+      link: "https://bestjob.netlify.app",
       imgUrl: "/openjobs.png",
     },
     {
