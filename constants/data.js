@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "/avatar.png",
   email: "tigour7777@gmail.com",
   phone: "+34 622017267",
-  address: "Barcelona, 08034",
+  address: "Barcelona",
   projects: [
     {
       title: "MapitSiteit - Guarda tus fotos",
@@ -42,14 +42,18 @@ const userData = {
     title:
       "Soy un desarrollador de software al que le encanta construir aplicaciones que hagan el dia a dia mejor de las personas que lo usan",
     description: [
-      'Comencé en el mundo de la programación hace dos años. Empecé con un curso de data science en datacamp pero rápidamente me di cuenta que lo que me gustaba era desarrollar aplicaciones o servicios web. ',
-      `Después de luchar mentalmente con la resolución de Algoritmos y estructuras de datos en la escuela online de referencia freeCodeCamp.org, obtuve confianza para empezar a crear y desplegar proyectos por mi cuenta.`,
-      'Ahora mismo me encuentro cómodo aprendiendo casi cualquier tecnología nueva, aunque dónde mejor me domino es en React. Actualmente me encuentro desarrollando pequeños proyectos regulares en equipo en Open Bootcamp, usando generalmente React para el front-end, y Java usando Spring como framework para el back-end.'
+      'Comencé en el mundo de la programación hace tres años. Empecé con un curso de data science en datacamp pero rápidamente me di cuenta que lo que me gustaba era desarrollar aplicaciones o servicios web. ',
+      `Después de luchar mentalmente con la resolución de Algoritmos y estructuras de datos en la escuela online de referencia freeCodeCamp.org, obtuve confianza para empezar a crear y desplegar proyectos por mi cuenta.`
     ],
-    currentProject: "equipo",
-    currentProjectUrl: "https://github.com/Onpointiscake/BestJob-client",
   },
   experience: [
+    {
+      title: "Desarrollador Junior",
+      company: "Seidor Opentrends",
+      year: "2022-Actualidad",
+      companyLink: "https://opentrends.factorialhr.es",
+      desc: "Trabajando en varios proyectos, tanto en parte de front-end como en back-end",
+    },
     {
       title: "Formación en Desarrollo de Software ",
       company: "Open Bootcamp",
@@ -86,12 +90,11 @@ const userData = {
       desc: "Se realizaron diversos proyectos usando Photoshop, Illustrator e Indesign a lo largo de más de 500 horas de formación",
     }
   ],
-  resumeUrl:
-    "https://drive.google.com/file/d/1QxBDMLBUcvzEhN57FBXz5TKHleZ4MiDe/view?usp=sharing",
   socialLinks: {
     twitter: "https://open-bootcamp.com",
     linkedin: "https://www.linkedin.com/in/javsf/",
-    github: "https://github.com/Onpointiscake"
+    github: "https://github.com/Onpointiscake",
+    blog: "https://javkad.hashnode.dev"
   },
 };
 

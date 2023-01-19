@@ -15,13 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Actualmente estoy desarrollando en {" "}
-            <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} ✈️
-            </a>
+            {userData.about.title}.
           </p>
         </div>
       </div>
@@ -44,27 +38,25 @@ export default function AboutMe() {
                 y te responderé de vuelta. Prometido.
               </p>
             </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Oportunidades de Trabajo
-              </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                Actualmente estoy buscando un empleo, si ves que puedo encajar,
-                consulta mi{" "}
-                <a
-                  href={userData.resumeUrl}
-                  target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  CV
-                </a>{" "}
-              </p>
-            </div>
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Links de Interés
             </h1>
             <div className="mt-4 ml-4">
+
+            <div className="flex flex-row justify-start items-center ">
+                <a
+                  href={userData.socialLinks.blog}
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    Blog
+                  </p>
+                </a>
+              </div>
+
               <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.github}
