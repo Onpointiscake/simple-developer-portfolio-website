@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
           <div>
-            <p>&copy; Javier Suarez Fernandez. CV Actualizado a fecha de 11/2021</p>
+            <p>&copy; Javier Suarez Fernandez. CV Actualizado a fecha de 01/2023</p>
           </div>
           <div>
             {/* Support me by keeping this in the footer, please. :) */}
